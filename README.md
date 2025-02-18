@@ -28,7 +28,7 @@ Click the pull model button at the bottom left and enter the correct model name 
 
 You can also directly call the API. Examples are as follows:
 
-> For more information about Ollama Restful API interfaces and parameters, please refer to the official REST API documentation
+> For more information about Ollama Restful API interfaces and parameters, please refer to the [Ollama API documentation](https://github.com/ollama/ollama/blob/main/docs/api.md)
 
 ```http
 ### view available models
