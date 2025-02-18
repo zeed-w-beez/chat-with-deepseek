@@ -6,10 +6,10 @@ Buildin with DeepSeek R1 1.5b and WebUI.
 
 ```bash
 # with CPU
-docker run -d -p 8080:3000 -p 11434:11434 --name chat-ds --restart always ghcr.io/zeed-w-beez/chat-with-deepseek:main
+docker run -d -p 8080:3000 -p 11434:11434 --name chat-ds --restart always ghcr.io/zeed-w-beez/chat-with-deepseek:latest
 
 # with GPU
-docker run -d -p 8080:3000 -p 11434:11434 --gpus all --name chat-ds --restart always ghcr.io/zeed-w-beez/chat-with-deepseek:main
+docker run -d -p 8080:3000 -p 11434:11434 --gpus all --name chat-ds --restart always ghcr.io/zeed-w-beez/chat-with-deepseek:latest
 ```
 
 ## Chat with buildin `deepseek-r1:1.5b` model
